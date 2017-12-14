@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 连框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="@color/black" />
+        </shape>
+    </item>
+    <!-- 主体背景颜色值 -->
+    <item
+
+        android:bottom="1px"
+        android:top="1px">
+        <!--边框里面背景颜色 白色-->
+        <shape>
+
+            <solid android:color="#ffffff" />
+            <padding
+                android:bottom="8dp"
+                android:top="8dp" />
+        </shape>
+    </item>
+</layer-list>

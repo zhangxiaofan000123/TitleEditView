@@ -1,0 +1,14 @@
+<resources>
+    <declare-styleable name="TitleEditView" >
+        <attr name="isSingle" format="boolean" />
+        <attr name="isImport" format="boolean" />
+        <attr name="isEdit" format="boolean" />
+        <attr name="title" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="text" format="string" />
+        <attr name="inputType" format="integer" />
+        <attr name="isClick" format="boolean" />
+        <attr name="tTextColor" format="color" />
+        <attr name="tTextMaxLength" format="integer" />
+    </declare-styleable>
+</resources>

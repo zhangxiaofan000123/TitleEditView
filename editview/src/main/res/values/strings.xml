@@ -1,0 +1,5 @@
+<resources>
+    <string name="red_format"><![CDATA[<font color=\'#e60012\'>%s</font>]]></string>
+    <string name="please_input_content">请输入内容</string>
+    <string name="please_input">请输入</string>
+</resources>

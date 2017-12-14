@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--表格编辑区-->
+    <style name="content">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:paddingLeft">4dp</item>
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/form_table_content_shap</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="text_must_fill_in" parent="content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">*</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">#FF3333</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="edit_multi_content" parent="content">
+        <item name="android:minLines">5</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_content_select</item>
+    </style>
+
+    <style name="edit_title" parent="content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingTop">@dimen/edit_title_vertical_padding</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:paddingBottom">@dimen/edit_title_vertical_padding</item>
+    </style>
+    <style name="edit_parent" parent="content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_linear_layout_bg</item>
+    </style>
+    <style name="edit_show_parent"  >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="edit_parent_show" parent="edit_parent">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!--编辑框相关的样式-->
+    <style name="edit_content_transparent" parent="content">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="text_show_title" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <!--编辑框相关的样式-->
+    <style name="edit_show_transparent" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
