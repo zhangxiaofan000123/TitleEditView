@@ -270,6 +270,12 @@ public class TitleEditView extends LinearLayout {
         inflateView();
         initView();
     }
+    public void setClick(boolean click) {
+        isClick = click;
+        this.removeAllViews();
+        inflateView();
+        initView();
+    }
 
     public boolean isImport() {
         return isImport;
