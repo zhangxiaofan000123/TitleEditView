@@ -19,7 +19,7 @@ allprojects {
 Step 2. Add the dependency
 ```gradle
 dependencies {
-	compile 'com.github.zhangxiaofan000123:TitleEditView:1.0'
+	compile 'com.github.zhangxiaofan000123:TitleEditView:1.1'
 }
 
 ```
